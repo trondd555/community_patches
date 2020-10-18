@@ -6,12 +6,13 @@ You can read more about custom patches in the [customization section of the ratt
 
 ## Patch Compatibility
 
-Currently, only the following patches have been updated and confirmed to be working in Android 10.0.
+Currently, only the following patches have been updated and confirmed to be working in Android 11.0.
 
-* 00001-global-internet-permission-toggle.patch
-* 00003-disable-menu-entries-in-recovery.patch
-* 00004-increase-default-maximum-password-length.patch
-* 00008-round-icon.patch
+* `00001-global-internet-permission-toggle.patch` - this patch adds an additional global network permission.
+* `00002-round-icon.patch` - show round icons in launcher, quick setting tiles.
+* `00003-enable-volte-wifi-calling.patch` - enable VoLTE/4G and WiFi calling (only sargo/bonito and sunfish).
+* `00004-use-cloudflare-dns.patch` - fallback to Cloudflare DNS instead of Google DNS.
+* `00005-2-button-navigation.patch` - add back 2-button navigation.
 
 ## Submitting Community Patches
 Rules for submitting a patch:
